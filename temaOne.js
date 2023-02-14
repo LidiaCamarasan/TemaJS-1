@@ -31,7 +31,7 @@ console.log("Exercitiul 3:");
 
 var day = "5";
 
-switch (day) {
+switch (Day) {
   case "1":
     console.log("Sunday");
     break;
