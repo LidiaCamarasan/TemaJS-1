@@ -29,9 +29,9 @@ tellFortune(numarDeCopii, numePartener, locatieGeografica, locMunca);
 
 console.log("Exercitiul 3:");
 
-var day = "5";
+var day = "4";
 
-switch (Day) {
+switch (day) {
   case "1":
     console.log("Sunday");
     break;
