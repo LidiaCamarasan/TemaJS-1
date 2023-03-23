@@ -1,17 +1,14 @@
-console.log("ex. 1:");
-var a = 100;
-var b = 10;
+console.log("Exercitiul 1:");
 
-if (a % b === 0) console.log("true");
-else console.log("false");
-
-console.log("ex. 2:");
-
-var x = 100;
-var y = 23;
-
-if (x % y === 0) console.log("true");
-else console.log("false");
+const numarDivizibilCuZece = (numar) => {
+  if (numar % 10 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+console.log(numarDivizibilCuZece(100));
+console.log(numarDivizibilCuZece(23));
 
 console.log("Exercitiul 2:");
 
