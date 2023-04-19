@@ -12,10 +12,10 @@ console.log(numarDivizibilCuZece(23));
 
 console.log("Exercitiul 2:");
 
-var numarDeCopii = 3;
-var numePartener = "Emanuel";
-var locatieGeografica = "Italia";
-var locMunca = "Programator";
+let numarDeCopii = 3;
+let numePartener = "Emanuel";
+let locatieGeografica = "Italia";
+let locMunca = "Programator";
 
 function tellFortune(N, Z, Y, X) {
   console.log(
@@ -26,34 +26,38 @@ tellFortune(numarDeCopii, numePartener, locatieGeografica, locMunca);
 
 console.log("Exercitiul 3:");
 
-var day = "4";
+const weekDay = (dayNumber) => {
+  let day = "";
 
-switch (day) {
-  case "1":
-    console.log("Sunday");
-    break;
+  switch (dayNumber) {
+    case 1:
+      day = "Sunday";
+      break;
 
-  case "2":
-    console.log("Monday");
-    break;
+    case 2:
+      day = "Monday";
+      break;
 
-  case "3":
-    console.log("Tuesday");
-    break;
+    case 3:
+      day = "Tuesday";
+      break;
 
-  case "4":
-    console.log("Wednesday");
-    break;
+    case 4:
+      day = "Wednesday";
+      break;
 
-  case "5":
-    console.log("Thursday");
-    break;
+    case 5:
+      day = "Thursday";
+      break;
 
-  case "6":
-    console.log("Friday");
-    break;
+    case 6:
+      day = "Friday";
+      break;
 
-  case "7":
-    console.log("Saturday");
-    break;
-}
+    case 7:
+      day = "Saturday";
+      break;
+  }
+  return day;
+};
+console.log(weekDay(4));
